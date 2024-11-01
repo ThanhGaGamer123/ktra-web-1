@@ -91,79 +91,140 @@
   <body style="height: 5000px">
     <!-- header -->
     <header class="header">
-      <div class="container">
-        <!-- nav -->
-        <div class="navbar navbar-fixed">
-          <!-- logo -->
-          <div class="navbar__logo">
-            <a
-              href="https://ttcntt.sgu.edu.vn"
-              class="navbar__logo-link"
-              target="_blank"
-              ><img src="./img/logo.png" alt="logo" class="navbar__logo-img"
-            /></a>
-            <h1 class="navbar__logo-desc">ITC - SAIGON UNIVERSITY</h1>
-          </div>
-
-          <!-- menu -->
-          <div class="navbar__menu">
-            <a href="#" class="navbar__link"
-              ><div class="navbar__item navbar__item--active">Home</div>
-            </a>
-
-            <div class="navbar__item navbar__item-course">
-              <span class="navbar__item-course-heading">Online Course</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                class="navbar__item-icon"
-              >
-                <path
-                  fill="currentColor"
-                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                />
-              </svg>
-
-              <div class="navbar-bridge"></div>
-
-              <div class="navbar__more">
-                <ul class="navbar__move">
-                  <li class="navbar__move-item">Data Science</li>
-                  <li class="navbar__move-item navbar__move-course">
-                    Computer Science
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                      class="navbar__item-icon navbar__move-icon"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                      />
-                    </svg>
-
-                    <div class="navbar-bridge2"></div>
-
-                    <div class="navbar__more2">
-                      <ul class="navbar__move">
-                        <li class="navbar__move-item">System Administrator</li>
-                        <li class="navbar__move-item">Web Design</li>
-                        <li class="navbar__move-item">Cisco CCNA</li>
-                        <li class="navbar__move-item">Cisco CCNB</li>
-                        <li class="navbar__move-item">Web Administrator</li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="navbar__move-item">Math & Logic</li>
-                  <li class="navbar__move-item">Database</li>
-                </ul>
-              </div>
+      <!-- nav -->
+      <div class="navbar navbar-fixed">
+        <div class="container">
+          <div class="navbar-row">
+            <!-- logo -->
+            <div class="navbar__logo">
+              <a
+                href="https://ttcntt.sgu.edu.vn"
+                class="navbar__logo-link"
+                target="_blank"
+                ><img src="./img/logo.png" alt="logo" class="navbar__logo-img"
+              /></a>
+              <h1 class="navbar__logo-desc">ITC - SAIGON UNIVERSITY</h1>
             </div>
-            <div class="navbar__item">Contact</div>
-            <div class="btn navbar__btn">Sign Up</div>
+
+            <!-- menu -->
+            <div class="navbar__menu">
+              <a href="#" class="navbar__link"
+                ><div class="navbar__item navbar__item--active">Home</div>
+              </a>
+
+              <div class="navbar__item navbar__item-course">
+                <a href="" class="navbar__link"
+                  ><span class="navbar__item-course-heading"
+                    >Online Course</span
+                  ></a
+                >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  class="navbar__item-icon"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                  />
+                </svg>
+
+                <div class="navbar-bridge"></div>
+
+                <div class="navbar__more">
+                  <ul class="navbar__move">
+                    <a href="" class="navbar__link"
+                      ><li class="navbar__move-item">Data Science</li></a
+                    >
+                    <li class="navbar__move-item navbar__move-course">
+                      <a href="" class="navbar__link">
+                        <span>Computer Science</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                          class="navbar__item-icon navbar__move-icon"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                          />
+                        </svg>
+                      </a>
+
+                      <div class="navbar-bridge2"></div>
+
+                      <div class="navbar__more2">
+                        <ul class="navbar__move">
+                          <a href="" class="navbar__link"
+                            ><li class="navbar__move-item">
+                              System Administrator
+                            </li></a
+                          >
+                          <a href="" class="navbar__link"
+                            ><li class="navbar__move-item">Web Design</li></a
+                          >
+                          <a href="" class="navbar__link"
+                            ><li class="navbar__move-item">Cisco CCNA</li></a
+                          >
+                          <a href="" class="navbar__link"
+                            ><li class="navbar__move-item">Cisco CCNB</li></a
+                          >
+                          <a href="" class="navbar__link"
+                            ><li class="navbar__move-item">
+                              Web Administrator
+                            </li></a
+                          >
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="navbar__move-item">Math & Logic</li>
+                    <li class="navbar__move-item">Database</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="" class="navbar__link"
+                ><div class="navbar__item">Contact</div></a
+              >
+              <a href="" class="navbar__link"
+                ><div class="btn navbar__btn">Sign Up</div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero-row">
+            <!-- hero left -->
+            <div class="hero-left">
+              <div class="hero-left__heading">Better for your future!</div>
+              <div class="hero-left__desc">
+                Joy is not a destination, but a part of the journey
+              </div>
+              <div class="btn hero-left__btn">Get Started</div>
+            </div>
+            <!-- hero right -->
+            <div class="hero-right">
+              <figure>
+                <img
+                  src="./img/banner.png"
+                  alt="Better for your future!"
+                  class="hero-right__img"
+                />
+              </figure>
+            </div>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- body -->
+    <main class="main">
+      <!-- contact -->
+
+      <!-- form -->
+    </main>
   </body>
 </html>
